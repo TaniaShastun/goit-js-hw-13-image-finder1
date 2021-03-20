@@ -1,1 +1,1 @@
-# goit-js-hw-13-image-finder1
+# goit-js-hw-10-food-service
