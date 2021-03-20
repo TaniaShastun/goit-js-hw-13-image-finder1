@@ -6,7 +6,7 @@ const paths = require('../utils/paths');
 module.exports = env => ({
   mode: env.mode,
   context: paths.SRC_DIR,
-  entry: '/src/js/index.js',
+  entry: './js/index.js',
   output: {
     path: paths.BUILD_DIR,
   },

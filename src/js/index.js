@@ -1,9 +1,11 @@
-import '.../src/styles.css';
-import pixabayApiData from '../js/apiService';
+import '../styles.css';
+//import pixabayApiData from './apiService';
 import imageList from '../template/image-list.hbs';
-import '.../node_modules/material-design-icons/iconfont/material-icons.css';
+//import '.../node_modules/material-design-icons/iconfont/material-icons.css';
 import * as basicLightbox from 'basiclightbox';
 import 'basiclightbox/dist/basiclightbox.min.css';
+import './apiService';
+
 
 const ulListImage = document.querySelector('#image-list');
 ulListImage.addEventListener('click', originImageShow);
@@ -13,9 +15,10 @@ const searchForm = document.querySelector('#search-form');
 searchForm.addEventListener('submit', submitForm);
 const choiseInput = document.querySelector('#input');
 
-import PNotify from '../node_modules/pnotify/dist/es/PNotify';
+//import PNotify from '....node_modules/pnotify/core//dist/es/PNotify';
 
-import '../node_modules/pnotify/dist/PNotifyBrightTheme.css';
+//import '.../node_modules/pnotify/core/dist/PNotifyBrightTheme.css';
+//import '...node_modules/pnotify/core//es/PNotifyButtons.js';
 
 function parseData(data) {
   const rezult = imageList(data);

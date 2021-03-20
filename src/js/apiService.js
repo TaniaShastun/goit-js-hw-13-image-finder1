@@ -1,6 +1,8 @@
-import PNotify from 'pnotify/dist/es/PNotify';
-import PNotifyButtons from 'pnotify/dist/es/PNotifyButtons.js';
-import 'pnotify/dist/PNotifyBrightTheme.css';
+import PNotify from '@pnotify/core/dist/PNotify';
+
+//import '.../node_modules/core/dist/es/PNotifyButtons.js';
+import '@pnotify/core/dist/BrightTheme.css';
+
 
 const KEY = '15302072-a81be31270c5e4995077a81d4';
 
