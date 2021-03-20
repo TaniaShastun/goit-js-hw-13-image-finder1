@@ -3,6 +3,7 @@ import pixabayApiData from './apiService';
 import imageList from '../template/image-list.hbs';
 import * as basicLightbox from 'basiclightbox';
 import 'basiclightbox/dist/basiclightbox.min.css';
+//import './apiService';
 
 
 const ulListImage = document.querySelector('#image-list');
@@ -14,6 +15,7 @@ searchForm.addEventListener('submit', submitForm);
 const choiseInput = document.querySelector('#input');
 
 import PNotify from '@pnotify/core/dist/PNotify';
+
 import '@pnotify/core/dist/BrightTheme.css';
 
 function parseData(data) {
