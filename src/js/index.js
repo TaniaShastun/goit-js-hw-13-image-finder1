@@ -1,7 +1,7 @@
-import './styles.css';
-import pixabayApiData from './apiService';
-import imageList from './template/image-list.hbs';
-import '../node_modules/material-design-icons/iconfont/material-icons.css';
+import '.../src/styles.css';
+import pixabayApiData from '../js/apiService';
+import imageList from '../template/image-list.hbs';
+import '.../node_modules/material-design-icons/iconfont/material-icons.css';
 import * as basicLightbox from 'basiclightbox';
 import 'basiclightbox/dist/basiclightbox.min.css';
 

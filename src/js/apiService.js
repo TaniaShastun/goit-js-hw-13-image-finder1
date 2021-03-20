@@ -1,6 +1,6 @@
-import PNotify from '../node_modules/pnotify/dist/es/PNotify';
-import PNotifyButtons from '../node_modules/pnotify/dist/es/PNotifyButtons.js';
-import '../node_modules/pnotify/dist/PNotifyBrightTheme.css';
+import PNotify from 'pnotify/dist/es/PNotify';
+import PNotifyButtons from 'pnotify/dist/es/PNotifyButtons.js';
+import 'pnotify/dist/PNotifyBrightTheme.css';
 
 const KEY = '15302072-a81be31270c5e4995077a81d4';
 
